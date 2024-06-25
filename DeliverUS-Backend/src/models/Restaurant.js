@@ -36,6 +36,10 @@ const loadModel = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
+    percentage: {
+      type: DataTypes.DOUBLE,
+      defaultValue: 0.0
+    },
     postalCode: {
       allowNull: false,
       type: DataTypes.STRING
